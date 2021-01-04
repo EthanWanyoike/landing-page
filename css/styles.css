@@ -1,3 +1,82 @@
 body {
   font-family: sans-serif;
+  color: blue;
+  border: 2px dashed lightgrey;
+}
+a {
+  color: darkcyan;
+  text-decoration: none;
+}
+li {
+  font-weight: bold;
+  color: green;
+}
+h1 {
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+}
+h2 {
+  color: white;
+  background-color: blue;
+  font-family: cursive;
+}
+h3 {
+  background-color: #1F289D;
+  color: white;
+  font-family: monospace;
+}
+.about-me p {
+  text-indent: 16px;
+}
+span {
+  color: inherit;
+  font-weight: bold;
+}
+.about-me, .who-i-am, .projects {
+  padding: 6px;
+  margin: 20px;
+}
+.about-me a {
+  color: coral;
+  font-weight: bold;
+}
+h1, h2, h3 {
+  padding: 3px;
+}
+.readme, .readme a {
+  background-color: white;
+  color: gray;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    width: 98%;
+    color: black;
+    background-color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-family: serif;
+    text-align: justify;
+    padding: 6px;
+  }
+  ol li {
+    font-style: normal;
+    font-weight: normal;
+  }
+
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    /*text-align: justify;*/
+  }
+  ol li {
+    font-style: normal;
+    font-weight: normal;
+  }
 }
